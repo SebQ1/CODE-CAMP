@@ -1,0 +1,138 @@
+body{
+    background-color: rgb(24, 24, 24);
+}
+
+header{
+    background-color: rgb(24, 24, 24);
+    padding: 30px 10%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li, a, button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:rgb(225, 225, 225);
+    text-decoration: none;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color:rgb(255, 105, 105);
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgb(255, 105, 105);
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgb(41, 41, 41);
+}
+
+
+h2{
+    color: rgb(255, 105, 105);
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    color: rgb(225, 225, 225);
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+p{
+    color:rgb(225, 225, 225);
+}
+
+main{
+    background: rgb(17, 17, 17);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 20px;
+}
+
+img{
+    width: 100%;
+}
+
+article{
+    margin-bottom: 30px;
+}
+
+.forfatter{
+    margin-bottom: 50px;
+    font-style: italic;
+    text-align: right;
+}
+
+#post1{
+    border-bottom: 2px dotted rgb(255, 105, 105);
+}
+
+#post2{
+    border-bottom: 2px dotted rgb(255, 105, 105);
+}
+
+#post3{
+    border-bottom: 2px dotted rgb(255, 105, 105);
+}
+
+#post4{
+    border-bottom: 2px dotted rgb(255, 105, 105);
+}
+
+.contact{
+    text-align: center;
+    padding: 20px;
+}
+
+.contact h1{
+    font-size: 50px;
+    border-bottom: 2px dotted rgb(255, 105, 105);
+    margin: 20px;
+}
+
+.contact p{
+    font-size: 20px;
+}
+
+.back{
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+}
+
+.about p{
+    text-align: center;
+}
+
+
+
